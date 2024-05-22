@@ -1,0 +1,2087 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://opus.nlpl.eu/trac/wiki/DataFormats/
+Subject: =?utf-8?Q?DataFormats=20=E2=80=93=20OPUS?=
+Date: Sat, 5 Jun 2021 16:25:16 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----"
+
+
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/html
+Content-ID: <frame-3B4EA03137D2DCF5ACE989A98755C408@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://opus.nlpl.eu/trac/wiki/DataFormats/
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-a48966=
+8d-a221-49e6-ac44-23f05e21f57e@mhtml.blink" />
+    <title>
+      DataFormats =E2=80=93 OPUS
+    </title>
+     =20
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--[if IE]><script type=3D"text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/=
+, '#'));
+    </script><![endif]-->
+        <link rel=3D"search" href=3D"http://opus.nlpl.eu/trac/search">
+        <link rel=3D"help" href=3D"https://opus.nlpl.eu/trac/wiki/DataForma=
+ts/TracGuide.html">
+        <link rel=3D"alternate" href=3D"http://opus.nlpl.eu/trac/wiki/DataF=
+ormats?format=3Dtxt" type=3D"text/x-trac-wiki" title=3D"Plain Text">
+        <link rel=3D"start" href=3D"https://opus.nlpl.eu/trac/wiki.html">
+        <link rel=3D"stylesheet" href=3D"https://opus.nlpl.eu/trac/chrome/c=
+ommon/css/trac.css" type=3D"text/css"><link rel=3D"stylesheet" href=3D"http=
+s://opus.nlpl.eu/trac/chrome/common/css/wiki.css" type=3D"text/css">
+        <link rel=3D"shortcut icon" href=3D"https://opus.nlpl.eu/trac/chrom=
+e/common/trac.ico" type=3D"image/x-icon">
+        <link rel=3D"icon" href=3D"https://opus.nlpl.eu/trac/chrome/common/=
+trac.ico" type=3D"image/x-icon">
+     =20
+     =20
+     =20
+     =20
+     =20
+     =20
+   =20
+  <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://opus.nlpl.eu/t=
+rac/pygments/trac.css"></head>
+  <body>
+    <div id=3D"banner">
+      <div id=3D"header">
+        <a id=3D"logo" href=3D"https://opus.nlpl.eu/index.php"><img src=3D"=
+https://opus.nlpl.eu/img/opus_medium.jpg" alt=3D"opus" height=3D"90"></a>
+      </div>
+      <form id=3D"search" action=3D"http://opus.nlpl.eu/trac/search" method=
+=3D"get">
+      </form>
+      <div id=3D"metanav" class=3D"nav">
+    <ul>
+      <li class=3D"first"><a href=3D"http://opus.nlpl.eu/trac/login">Login<=
+/a></li><li><a href=3D"https://opus.nlpl.eu/trac/prefs.html">Preferences</a=
+></li><li><a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/TracGuide.h=
+tml">Help/Guide</a></li><li class=3D"last"><a href=3D"https://opus.nlpl.eu/=
+trac/about.html">About Trac</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id=3D"mainnav" class=3D"nav">
+    <ul>
+      <li class=3D"first active"><a href=3D"https://opus.nlpl.eu/trac/wiki.=
+html">Wiki</a></li><li class=3D"last"><a href=3D"https://opus.nlpl.eu/trac/=
+roadmap.html">Roadmap</a></li>
+    </ul>
+  </div>
+    <div id=3D"main">
+      <div id=3D"pagepath" class=3D"noprint">
+  <a class=3D"pathentry first" title=3D"View WikiStart" href=3D"https://opu=
+s.nlpl.eu/trac/wiki.html">wiki:</a><a class=3D"pathentry" href=3D"https://o=
+pus.nlpl.eu/trac/wiki/DataFormats/DataFormats.html" title=3D"View DataForma=
+ts">DataFormats</a>
+</div>
+      <div id=3D"ctxtnav" class=3D"nav">
+        <h2>Context Navigation</h2>
+        <ul>
+          <li class=3D"first"><a href=3D"https://opus.nlpl.eu/trac/wiki/Dat=
+aFormats/WikiStart.html">Start Page</a></li><li><a href=3D"https://opus.nlp=
+l.eu/trac/wiki/DataFormats/TitleIndex.html">Index</a></li><li class=3D"last=
+"><a href=3D"http://opus.nlpl.eu/trac/wiki/DataFormats?action=3Dhistory">Hi=
+story</a></li>
+        </ul>
+        <hr>
+      </div>
+    <div id=3D"content" class=3D"wiki">
+      <div class=3D"wikipage searchable">
+       =20
+          <div id=3D"wikipage" class=3D"trac-content"><p>
+</p><div class=3D"wiki-toc">
+<ol>
+  <li>
+    <a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/DataFormats.html#=
+DataFormats">Data Formats</a>
+    <ol>
+      <li>
+        <a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/DataFormats.h=
+tml#NativeXML">Native XML</a>
+      </li>
+      <li>
+        <a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/DataFormats.h=
+tml#UDParsedXML">UD Parsed XML</a>
+      </li>
+      <li>
+        <a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/DataFormats.h=
+tml#PlainTextMoses">Plain Text / Moses</a>
+      </li>
+      <li>
+        <a href=3D"https://opus.nlpl.eu/trac/wiki/DataFormats/DataFormats.h=
+tml#TMX">TMX</a>
+      </li>
+    </ol>
+  </li>
+</ol>
+</div><p>
+</p>
+<h1 id=3D"DataFormats">Data Formats<a class=3D"anchor" href=3D"https://opus=
+.nlpl.eu/trac/wiki/DataFormats/#DataFormats" title=3D"Link to this section"=
+> =C2=B6</a></h1>
+<p>
+OPUS provides the data in various formats. The native data format is XML an=
+d all other formats are derived from those data files. The general file str=
+ucture is common to all corpora. Corpus files are stored in sub-directories=
+ that are named by the corresponding language ID (using 2-letter ISO-639 la=
+nguage codes as much as possible). Aligned documents have usually the same =
+path relative to this language-specific sub-directory (but do not have to h=
+ave exactly the same name). Tokenized corpus files are stored in a sub-dire=
+ctory <tt>xml</tt> and untokenized files in <tt>raw</tt>. Sentence alignmen=
+t files are named by the language IDs, for example, <tt>en-fr.xml.gz</tt> f=
+or the alignments of English and French documents. Alignments are symmetric=
+ and, therefore, only one direction is stored in the corpus using alphabeti=
+cally sorted language IDs (i.e. <tt>fr-en.xml.gz</tt> does not exist for al=
+igning French and English sentences). Here is an example of the file struct=
+ure in Europarl:
+</p>
+<pre class=3D"wiki">Europarl
+Europarl/xml
+Europarl/xml/en
+Europarl/xml/en/ep-10-07-05-004.xml.gz
+Europarl/xml/fr
+Europarl/xml/fr/ep-10-07-05-004.xml.gz
+...
+Europarl/xml/en-fr.xml.gz
+...
+Europarl/raw
+Europarl/raw/en
+Europarl/xml/en/ep-10-07-05-004.xml.gz
+Europarl/raw/fr
+Europarl/xml/fr/ep-10-07-05-004.xml.gz
+...
+</pre><h2 id=3D"NativeXML">Native XML<a class=3D"anchor" href=3D"https://op=
+us.nlpl.eu/trac/wiki/DataFormats/#NativeXML" title=3D"Link to this section"=
+> =C2=B6</a></h2>
+<p>
+The native data format in OPUS is a simple standalone XML format. The amoun=
+t of markup varies for each corpus and each language depending on the pre-p=
+rocessing pipeline that was available at the time of creating the particula=
+r corpus. More about pre-processing tools can be found [Tools here]. All da=
+ta sets are available in a "raw" untokenized format in which only sentence =
+boundaries are added (and possibly some additional basic document markup su=
+ch as paragraph boundaries etc.).
+</p>
+<p>
+A typical example of raw corpus data (taken from Europarl) looks like this
+</p>
+<div class=3D"code"><pre><span class=3D"cp">&lt;?xml version=3D"1.0" encodi=
+ng=3D"utf-8"?&gt;</span>
+<span class=3D"nt">&lt;document&gt;</span>
+  <span class=3D"nt">&lt;CHAPTER</span> <span class=3D"na">ID=3D</span><spa=
+n class=3D"s">"0"</span><span class=3D"nt">&gt;</span>
+    <span class=3D"nt">&lt;P</span> <span class=3D"na">id=3D</span><span cl=
+ass=3D"s">"1"</span><span class=3D"nt">&gt;&lt;/P&gt;</span>
+    <span class=3D"nt">&lt;SPEAKER</span> <span class=3D"na">ID=3D</span><s=
+pan class=3D"s">"1"</span> <span class=3D"na">LANGUAGE=3D</span><span class=
+=3D"s">"DE"</span> <span class=3D"na">NAME=3D</span><span class=3D"s">"R=C3=
+=BCbig"</span><span class=3D"nt">&gt;</span>
+      <span class=3D"nt">&lt;P</span> <span class=3D"na">id=3D</span><span =
+class=3D"s">"2"</span><span class=3D"nt">&gt;</span>
+        <span class=3D"nt">&lt;s</span> <span class=3D"na">id=3D</span><spa=
+n class=3D"s">"1"</span><span class=3D"nt">&gt;</span>Madam President, I sa=
+w a few boats landing at Parliament this week and notified the security ser=
+vice.<span class=3D"nt">&lt;/s&gt;</span>
+        <span class=3D"nt">&lt;s</span> <span class=3D"na">id=3D</span><spa=
+n class=3D"s">"2"</span><span class=3D"nt">&gt;</span>Not only were there l=
+anguage difficulties; the telephone line was so poor that it was almost imp=
+ossible to communicate.<span class=3D"nt">&lt;/s&gt;</span>
+        <span class=3D"nt">&lt;s</span> <span class=3D"na">id=3D</span><spa=
+n class=3D"s">"3"</span><span class=3D"nt">&gt;</span>I would be most oblig=
+ed if the number on which the security service can be reached could also be=
+ clearly displayed in the House, so that if anyone wants to report an incid=
+ent, they can do so quickly and efficiently.<span class=3D"nt">&lt;/s&gt;</=
+span>
+      <span class=3D"nt">&lt;/P&gt;</span>
+      <span class=3D"nt">&lt;P</span> <span class=3D"na">id=3D</span><span =
+class=3D"s">"3"</span><span class=3D"nt">&gt;&lt;/P&gt;</span>
+    <span class=3D"nt">&lt;/SPEAKER&gt;</span>
+    ...
+</pre></div><p>
+Sentences are numbered with unique IDs (unique within the XML file, not uni=
+que within the entire corpus). These IDs are used for the sentence alignmen=
+t (see below).
+</p>
+<p>
+In the tokenized versions, token boundaries are added with <tt>&lt;w&gt;</t=
+t> tags. Additional annotation may be included as well. A typical example f=
+or English (again, taken from Europarl) looks like the following:
+</p>
+<div class=3D"code"><pre><span class=3D"cp">&lt;?xml version=3D"1.0" encodi=
+ng=3D"utf-8"?&gt;</span>
+<span class=3D"nt">&lt;document&gt;&lt;CHAPTER</span> <span class=3D"na">ID=
+=3D</span><span class=3D"s">"0"</span><span class=3D"nt">&gt;</span>
+<span class=3D"nt">&lt;P</span> <span class=3D"na">id=3D</span><span class=
+=3D"s">"1"</span> <span class=3D"nt">/&gt;&lt;SPEAKER</span> <span class=3D=
+"na">ID=3D</span><span class=3D"s">"1"</span> <span class=3D"na">LANGUAGE=
+=3D</span><span class=3D"s">"DE"</span> <span class=3D"na">NAME=3D</span><s=
+pan class=3D"s">"R=C3=BCbig"</span><span class=3D"nt">&gt;&lt;P</span> <spa=
+n class=3D"na">id=3D</span><span class=3D"s">"2"</span><span class=3D"nt">&=
+gt;</span>
+<span class=3D"nt">&lt;s</span> <span class=3D"na">id=3D</span><span class=
+=3D"s">"1"</span><span class=3D"nt">&gt;</span>
+ <span class=3D"nt">&lt;chunk</span> <span class=3D"na">type=3D</span><span=
+ class=3D"s">"NP"</span> <span class=3D"na">id=3D</span><span class=3D"s">"=
+c-1"</span><span class=3D"nt">&gt;</span>
+  <span class=3D"nt">&lt;w</span> <span class=3D"na">hun=3D</span><span cla=
+ss=3D"s">"NNP"</span> <span class=3D"na">tree=3D</span><span class=3D"s">"N=
+N"</span> <span class=3D"na">lem=3D</span><span class=3D"s">"madam"</span> =
+<span class=3D"na">pos=3D</span><span class=3D"s">"NNP"</span> <span class=
+=3D"na">id=3D</span><span class=3D"s">"w1.1"</span><span class=3D"nt">&gt;<=
+/span>Madam<span class=3D"nt">&lt;/w&gt;</span>
+  <span class=3D"nt">&lt;w</span> <span class=3D"na">hun=3D</span><span cla=
+ss=3D"s">"NNP"</span> <span class=3D"na">tree=3D</span><span class=3D"s">"N=
+P"</span> <span class=3D"na">lem=3D</span><span class=3D"s">"President"</sp=
+an> <span class=3D"na">pos=3D</span><span class=3D"s">"NNP"</span> <span cl=
+ass=3D"na">id=3D</span><span class=3D"s">"w1.2"</span><span class=3D"nt">&g=
+t;</span>President<span class=3D"nt">&lt;/w&gt;</span>
+ <span class=3D"nt">&lt;/chunk&gt;</span>
+ <span class=3D"nt">&lt;w</span> <span class=3D"na">hun=3D</span><span clas=
+s=3D"s">","</span> <span class=3D"na">tree=3D</span><span class=3D"s">","</=
+span> <span class=3D"na">lem=3D</span><span class=3D"s">","</span> <span cl=
+ass=3D"na">pos=3D</span><span class=3D"s">","</span> <span class=3D"na">id=
+=3D</span><span class=3D"s">"w1.3"</span><span class=3D"nt">&gt;</span>,<sp=
+an class=3D"nt">&lt;/w&gt;</span>
+ <span class=3D"nt">&lt;chunk</span> <span class=3D"na">type=3D</span><span=
+ class=3D"s">"NP"</span> <span class=3D"na">id=3D</span><span class=3D"s">"=
+c-3"</span><span class=3D"nt">&gt;</span>
+  <span class=3D"nt">&lt;w</span> <span class=3D"na">hun=3D</span><span cla=
+ss=3D"s">"PRP"</span> <span class=3D"na">tree=3D</span><span class=3D"s">"P=
+P"</span> <span class=3D"na">lem=3D</span><span class=3D"s">"I"</span> <spa=
+n class=3D"na">pos=3D</span><span class=3D"s">"PRP"</span> <span class=3D"n=
+a">id=3D</span><span class=3D"s">"w1.4"</span><span class=3D"nt">&gt;</span=
+>I<span class=3D"nt">&lt;/w&gt;</span>
+ <span class=3D"nt">&lt;/chunk&gt;</span>
+ <span class=3D"nt">&lt;chunk</span> <span class=3D"na">type=3D</span><span=
+ class=3D"s">"VP"</span> <span class=3D"na">id=3D</span><span class=3D"s">"=
+c-4"</span><span class=3D"nt">&gt;</span>
+  <span class=3D"nt">&lt;w</span> <span class=3D"na">hun=3D</span><span cla=
+ss=3D"s">"VBD"</span> <span class=3D"na">tree=3D</span><span class=3D"s">"V=
+VD"</span> <span class=3D"na">lem=3D</span><span class=3D"s">"see"</span> <=
+span class=3D"na">pos=3D</span><span class=3D"s">"VBD"</span> <span class=
+=3D"na">id=3D</span><span class=3D"s">"w1.5"</span><span class=3D"nt">&gt;<=
+/span>saw<span class=3D"nt">&lt;/w&gt;</span>
+ <span class=3D"nt">&lt;/chunk&gt;</span>
+...
+</pre></div><p>
+Sentence alignments are stored in a standoff annotation file using the XCES=
+ align format. Here is an example from Europarl:
+</p>
+<div class=3D"code"><pre><span class=3D"cp">&lt;?xml version=3D"1.0" encodi=
+ng=3D"utf-8"?&gt;</span>
+<span class=3D"cp">&lt;!DOCTYPE cesAlign PUBLIC "-//CES//DTD XML cesAlign//=
+EN" ""&gt;</span>
+<span class=3D"nt">&lt;cesAlign</span> <span class=3D"na">version=3D</span>=
+<span class=3D"s">"1.0"</span><span class=3D"nt">&gt;</span>
+<span class=3D"nt">&lt;linkGrp</span> <span class=3D"na">targType=3D</span>=
+<span class=3D"s">"s"</span> <span class=3D"na">fromDoc=3D</span><span clas=
+s=3D"s">"en/ep-00-01-17.xml.gz"</span> <span class=3D"na">toDoc=3D</span><s=
+pan class=3D"s">"fr/ep-00-01-17.xml.gz"</span><span class=3D"nt">&gt;</span=
+>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">xtargets=3D</span><sp=
+an class=3D"s">"1;1"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">xtargets=3D</span><sp=
+an class=3D"s">"2;2"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">xtargets=3D</span><sp=
+an class=3D"s">"3;3 4"</span> <span class=3D"nt">/&gt;</span>
+...
+</pre></div><p>
+Each <tt>linkGrp</tt> includes attributes for specifying the source languag=
+e file (<tt>fromDoc</tt>) and the target language file (<tt>toDoc</tt>). Al=
+l file names are relative to the <tt>xml</tt> directory of the current corp=
+us. They can be used with both, the raw and the tokenized versions of the c=
+orpus (as sentence boundaries are identical in both variants).
+</p>
+<p>
+The actual links are stored in the <tt>xtargets</tt> attribute of the <tt>&=
+lt;link&gt;</tt> elements. Aligned sentence IDs are separated by <tt>;</tt>=
+ and multiple source/target language IDs are separated by whitespaces. For =
+example, in the sample above, sentence 1 from file <tt>en/ep-00-01-17.xml.g=
+z</tt> is aligned to sentence 1 in file <tt>fr/ep-00-01-17.xml.gz</tt> wher=
+eas sentence 3 is aligned to sentences 3 and 4 in the French file.
+</p>
+<p>
+There can be any number of sentences in each alignment, even no sentence at=
+ all. Sentence alignment files may also contain any number of aligned docum=
+ent pairs. More files are simply added by adding another <tt>&lt;linkGrp&gt=
+;</tt> structure.
+</p>
+<p>
+In some cases there will be additional information about the link likelihoo=
+d in these sentence alignment files. They are, for example, taken from huna=
+lign which we use as our default alignment tool. Here is an example (from M=
+ultiUN) that includes this information:
+</p>
+<div class=3D"code"><pre><span class=3D"cp">&lt;?xml version=3D"1.0" encodi=
+ng=3D"utf-8"?&gt;</span>
+<span class=3D"cp">&lt;!DOCTYPE cesAlign PUBLIC "-//CES//DTD XML cesAlign//=
+EN" ""&gt;</span>
+<span class=3D"nt">&lt;cesAlign</span> <span class=3D"na">version=3D</span>=
+<span class=3D"s">"1.0"</span><span class=3D"nt">&gt;</span>
+ <span class=3D"nt">&lt;linkGrp</span> <span class=3D"na">targType=3D</span=
+><span class=3D"s">"s"</span> <span class=3D"na">toDoc=3D</span><span class=
+=3D"s">"fr/2005/CES_AC71_2005_5SUMMARY.xml.gz"</span> <span class=3D"na">fr=
+omDoc=3D</span><span class=3D"s">"en/2005/CES_AC71_2005_5SUMMARY.xml.gz"</s=
+pan><span class=3D"nt">&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"0"</span> <span class=3D"na">xtargets=3D</span><span class=
+=3D"s">";1 2"</span> <span class=3D"na">id=3D</span><span class=3D"s">"SL1"=
+</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"0.612088"</span> <span class=3D"na">xtargets=3D</span><spa=
+n class=3D"s">"1;3"</span> <span class=3D"na">id=3D</span><span class=3D"s"=
+>"SL2"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"0.173077"</span> <span class=3D"na">xtargets=3D</span><spa=
+n class=3D"s">"2;4"</span> <span class=3D"na">id=3D</span><span class=3D"s"=
+>"SL3"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"1.65065"</span> <span class=3D"na">xtargets=3D</span><span=
+ class=3D"s">"3;5"</span> <span class=3D"na">id=3D</span><span class=3D"s">=
+"SL4"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"1.63824"</span> <span class=3D"na">xtargets=3D</span><span=
+ class=3D"s">"4;6"</span> <span class=3D"na">id=3D</span><span class=3D"s">=
+"SL5"</span> <span class=3D"nt">/&gt;</span>
+<span class=3D"nt">&lt;link</span> <span class=3D"na">certainty=3D</span><s=
+pan class=3D"s">"-0.3"</span> <span class=3D"na">xtargets=3D</span><span cl=
+ass=3D"s">";7"</span> <span class=3D"na">id=3D</span><span class=3D"s">"SL6=
+"</span> <span class=3D"nt">/&gt;</span>
+</pre></div><p>
+Note that the certainty is not a likelihood in terms of proper probabilitie=
+s. They are taken verbatim from the output of the underlying alignment tool=
+ (hunalign in this case). However, they may still be useful for filtering p=
+urposes, for example, for removing unreliable links from the set (e.g. the =
+empty link to sentence number 7 in the example above).
+</p>
+<p>
+Note that it is also easy to extract certain link types from the data. For =
+example, extracting 1-to-1 sentence alignments can easily be done by counti=
+ng aligned sentence IDs and filtering out the once that are not 1-to-1.
+</p>
+<h2 id=3D"UDParsedXML">UD Parsed XML<a class=3D"anchor" href=3D"https://opu=
+s.nlpl.eu/trac/wiki/DataFormats/#UDParsedXML" title=3D"Link to this section=
+"> =C2=B6</a></h2>
+<p>
+Some corpora have been parsed with universal dependencies using UDPipe. The=
+ dependency relations and all other morphosyntactic information has been co=
+nverted to XML to be compatible with the original data and its sentence ali=
+gnments. The format looks like this with token attributes added to each tok=
+en of each sentence based on the parser output in consul format:
+</p>
+<div class=3D"code"><pre><span class=3D"cp">&lt;?xml version=3D"1.0" encodi=
+ng=3D"utf-8"?&gt;</span>
+
+<span class=3D"nt">&lt;document&gt;</span>
+  <span class=3D"nt">&lt;CHAPTER</span> <span class=3D"na">ID=3D</span><spa=
+n class=3D"s">"002"</span><span class=3D"nt">&gt;</span>
+    <span class=3D"nt">&lt;P</span> <span class=3D"na">id=3D</span><span cl=
+ass=3D"s">"1"</span><span class=3D"nt">&gt;</span>
+      <span class=3D"nt">&lt;s</span> <span class=3D"na">id=3D</span><span =
+class=3D"s">"1"</span><span class=3D"nt">&gt;</span>
+        <span class=3D"nt">&lt;w</span> <span class=3D"na">xpos=3D</span><s=
+pan class=3D"s">"NOUN"</span> <span class=3D"na">head=3D</span><span class=
+=3D"s">"1.2"</span> <span class=3D"na">feats=3D</span><span class=3D"s">"Nu=
+mber=3DPlur"</span> <span class=3D"na">upos=3D</span><span class=3D"s">"NOU=
+N"</span> <span class=3D"na">lemma=3D</span><span class=3D"s">"document"</s=
+pan> <span class=3D"na">id=3D</span><span class=3D"s">"1.1"</span> <span cl=
+ass=3D"na">deprel=3D</span><span class=3D"s">"nsubj"</span><span class=3D"n=
+t">&gt;</span>Documents<span class=3D"nt">&lt;/w&gt;</span>
+        <span class=3D"nt">&lt;w</span> <span class=3D"na">xpos=3D</span><s=
+pan class=3D"s">"VERB"</span> <span class=3D"na">head=3D</span><span class=
+=3D"s">"0"</span> <span class=3D"na">feats=3D</span><span class=3D"s">"Mood=
+=3DInd|Tense=3DPast|VerbForm=3DFin"</span> <span class=3D"na">upos=3D</span=
+><span class=3D"s">"VERB"</span> <span class=3D"na">misc=3D</span><span cla=
+ss=3D"s">"SpaceAfter=3DNo"</span> <span class=3D"na">lemma=3D</span><span c=
+lass=3D"s">"receive"</span> <span class=3D"na">id=3D</span><span class=3D"s=
+">"1.2"</span> <span class=3D"na">deprel=3D</span><span class=3D"s">"root"<=
+/span><span class=3D"nt">&gt;</span>received<span class=3D"nt">&lt;/w&gt;</=
+span>
+        <span class=3D"nt">&lt;w</span> <span class=3D"na">xpos=3D</span><s=
+pan class=3D"s">"PUNCT"</span> <span class=3D"na">head=3D</span><span class=
+=3D"s">"1.2"</span> <span class=3D"na">upos=3D</span><span class=3D"s">"PUN=
+CT"</span> <span class=3D"na">lemma=3D</span><span class=3D"s">":"</span> <=
+span class=3D"na">id=3D</span><span class=3D"s">"1.3"</span> <span class=3D=
+"na">deprel=3D</span><span class=3D"s">"punct"</span><span class=3D"nt">&gt=
+;</span>:<span class=3D"nt">&lt;/w&gt;</span>
+        <span class=3D"nt">&lt;w</span> <span class=3D"na">xpos=3D</span><s=
+pan class=3D"s">"VERB"</span> <span class=3D"na">head=3D</span><span class=
+=3D"s">"1.2"</span> <span class=3D"na">feats=3D</span><span class=3D"s">"Mo=
+od=3DImp|VerbForm=3DFin"</span> <span class=3D"na">upos=3D</span><span clas=
+s=3D"s">"VERB"</span> <span class=3D"na">lemma=3D</span><span class=3D"s">"=
+see"</span> <span class=3D"na">id=3D</span><span class=3D"s">"1.4"</span> <=
+span class=3D"na">deprel=3D</span><span class=3D"s">"parataxis"</span><span=
+ class=3D"nt">&gt;</span>see<span class=3D"nt">&lt;/w&gt;</span>
+        <span class=3D"nt">&lt;w</span> <span class=3D"na">xpos=3D</span><s=
+pan class=3D"s">"PROPN"</span> <span class=3D"na">head=3D</span><span class=
+=3D"s">"1.4"</span> <span class=3D"na">feats=3D</span><span class=3D"s">"Nu=
+mber=3DPlur"</span> <span class=3D"na">upos=3D</span><span class=3D"s">"PRO=
+PN"</span> <span class=3D"na">misc=3D</span><span class=3D"s">"SpaceAfter=
+=3DNo"</span> <span class=3D"na">lemma=3D</span><span class=3D"s">"Minutes"=
+</span> <span class=3D"na">id=3D</span><span class=3D"s">"1.5"</span> <span=
+ class=3D"na">deprel=3D</span><span class=3D"s">"obj"</span><span class=3D"=
+nt">&gt;</span>Minutes<span class=3D"nt">&lt;/w&gt;</span>
+      <span class=3D"nt">&lt;/s&gt;</span>
+    <span class=3D"nt">&lt;/P&gt;</span>
+  <span class=3D"nt">&lt;/CHAPTER&gt;</span>
+<span class=3D"nt">&lt;/document&gt;</span>
+</pre></div><p>
+Note that some sentences from the original corpus may be split into several=
+ sub-sentences by UDpipe but the original sentence markup needs to stay the=
+ same to ensure compatibility with the standoff annotation of sentence alig=
+nments.
+</p>
+<h2 id=3D"PlainTextMoses">Plain Text / Moses<a class=3D"anchor" href=3D"htt=
+ps://opus.nlpl.eu/trac/wiki/DataFormats/#PlainTextMoses" title=3D"Link to t=
+his section"> =C2=B6</a></h2>
+<p>
+Plain text files are provided for each bitext in OPUS. They can be download=
+ed as zip archives and contain 2 files in which corresponding lines are ali=
+gned with each other. The name follows the typical name conventions used in=
+ Moses, i.e. using file extensions that correspond to the language ID. For =
+example, for the <tt>RF</tt> corpus the two files for English and French ar=
+e called:
+</p>
+<pre class=3D"wiki">RF.en-fr.en
+RF.en-fr.fr
+</pre><p>
+The contents of the English file looks like this:
+</p>
+<pre class=3D"wiki">Statement of Government Policy by the Prime Minister, M=
+r Ingvar Carlsson, at the Opening of the Swedish Parliament on Tuesday, 4 O=
+ctober, 1988.
+Your Majesties, Your Royal Highnesses, Mr Speaker, Members of the Swedish P=
+arliament.
+Sweden's policy of neutrality is of decisive importance for our peace and i=
+ndependence.
+It also contributes to stability and d=C3=A9tente in our part of the world.
+There is wide popular support for this policy.
+It will be pursued with firmness and consistency.
+...
+</pre><p>
+And the corresponding French file looks like this:
+</p>
+<pre class=3D"wiki">Declaration de Politique G=C3=A9n=C3=A9rale du Gouverne=
+ment pr=C3=A9sent=C3=A9e mardi 4 octobre 1988 devant le Riksdag par Monsieu=
+r Ingvar Carlsson, Premier Ministre.
+Majest=C3=A9s, Altesses Royales, Monsieur le Pr=C3=A9sident, Mesdames et Me=
+ssieurs les d=C3=A9put=C3=A9s!
+La politique su=C3=A9doise de neutralit=C3=A9 rev=C3=AAt une importance cap=
+itale pour la paix et l' ind=C3=A9pendance de notre pays.
+Elle contribue =C3=A9galement =C3=A0 la stabilit=C3=A9 et =C3=A0 la d=C3=A9=
+tente dans notre secteur du monde.
+Cette politique recueille une large adh=C3=A9sion populaire.
+Elle sera poursuivie avec =C3=A9nergie et coh=C3=A9rence.
+...
+</pre><p>
+Note that the files are untokenized (raw format) and that they may contain =
+multiple sentences per line in case they are aligned together to their corr=
+esponding sentence(s) in the other language. Empty alignments are excluded =
+from the plain text files.
+</p>
+<p>
+Monolingual files are also available for all languages. There are raw (unto=
+kenized) versions and tokenized versions available. In monolingual files, e=
+ach sentence is strictly on one line.
+</p>
+<p>
+A tokenized file looks like this:
+</p>
+<pre class=3D"wiki">Statement of Government Policy by the Prime Minister , =
+Mr Ingvar Carlsson , at the Opening of the Swedish Parliament on Tuesday , =
+4 October , 1988.
+Your Majesties , Your Royal Highnesses , Mr Speaker , Members of the Swedis=
+h Parliament .
+Sweden 's policy of neutrality is of decisive importance for our peace and =
+independence .
+It also contributes to stability and d=C3=A9tente in our part of the world =
+.
+There is wide popular support for this policy .
+It will be pursued with firmness and consistency .
+Our policy of neutrality is underpinned by a strong defence .
+That safeguards our independence .
+...
+</pre><p>
+The raw file like this:
+</p>
+<pre class=3D"wiki">Statement of Government Policy by the Prime Minister, M=
+r Ingvar Carlsson, at the Opening of the Swedish Parliament on Tuesday, 4 O=
+ctober, 1988.
+Your Majesties, Your Royal Highnesses, Mr Speaker, Members of the Swedish P=
+arliament.
+Sweden's policy of neutrality is of decisive importance for our peace and i=
+ndependence.
+It also contributes to stability and d=C3=A9tente in our part of the world.
+There is wide popular support for this policy.
+It will be pursued with firmness and consistency.
+Our policy of neutrality is underpinned by a strong defence.
+That safeguards our independence.
+</pre><p>
+All plain text files are encoded in Unicode UTF-8.
+</p>
+<h2 id=3D"TMX">TMX<a class=3D"anchor" href=3D"https://opus.nlpl.eu/trac/wik=
+i/DataFormats/#TMX" title=3D"Link to this section"> =C2=B6</a></h2>
+<p>
+Bitexts are also available in a simple TMX format. They only us a minimal m=
+arkup and come in untokenized raw text format. Below you can see an example=
+ of such a TMX file from the OPUS collection:
+</p>
+<div class=3D"code"><pre><span class=3D"nt">&lt;tmx</span> <span class=3D"n=
+a">version=3D</span><span class=3D"s">"1.4"</span><span class=3D"nt">&gt;</=
+span>
+<span class=3D"nt">&lt;header</span> <span class=3D"na">creationdate=3D</sp=
+an><span class=3D"s">"Fri Aug 23 10:17:33 2013"</span>
+          <span class=3D"na">srclang=3D</span><span class=3D"s">"en"</span>
+          <span class=3D"na">adminlang=3D</span><span class=3D"s">"en"</spa=
+n>
+          <span class=3D"na">o-tmf=3D</span><span class=3D"s">"unknown"</sp=
+an>
+          <span class=3D"na">segtype=3D</span><span class=3D"s">"sentence"<=
+/span>
+          <span class=3D"na">creationtool=3D</span><span class=3D"s">"Uplug=
+"</span>
+          <span class=3D"na">creationtoolversion=3D</span><span class=3D"s"=
+>"unknown"</span>
+          <span class=3D"na">datatype=3D</span><span class=3D"s">"PlainText=
+"</span> <span class=3D"nt">/&gt;</span>
+  <span class=3D"nt">&lt;body&gt;</span>
+    <span class=3D"nt">&lt;tu&gt;</span>
+      <span class=3D"nt">&lt;tuv</span> <span class=3D"na">xml:lang=3D</spa=
+n><span class=3D"s">"en"</span><span class=3D"nt">&gt;&lt;seg&gt;</span>Sta=
+tement of Government Policy by the Prime Minister, Mr Ingvar Carlsson, at t=
+he Opening of the Swedish Parliament on Tuesday, 4 October, 1988.<span clas=
+s=3D"nt">&lt;/seg&gt;&lt;/tuv&gt;</span>
+      <span class=3D"nt">&lt;tuv</span> <span class=3D"na">xml:lang=3D</spa=
+n><span class=3D"s">"fr"</span><span class=3D"nt">&gt;&lt;seg&gt;</span>Dec=
+laration de Politique G=C3=A9n=C3=A9rale du Gouvernement pr=C3=A9sent=C3=A9=
+e mardi 4 octobre 1988 devant le Riksdag par Monsieur Ingvar Carlsson, Prem=
+ier Ministre.<span class=3D"nt">&lt;/seg&gt;&lt;/tuv&gt;</span>
+    <span class=3D"nt">&lt;/tu&gt;</span>
+    <span class=3D"nt">&lt;tu&gt;</span>
+      <span class=3D"nt">&lt;tuv</span> <span class=3D"na">xml:lang=3D</spa=
+n><span class=3D"s">"en"</span><span class=3D"nt">&gt;&lt;seg&gt;</span>You=
+r Majesties, Your Royal Highnesses, Mr Speaker, Members of the Swedish Parl=
+iament.<span class=3D"nt">&lt;/seg&gt;&lt;/tuv&gt;</span>
+      <span class=3D"nt">&lt;tuv</span> <span class=3D"na">xml:lang=3D</spa=
+n><span class=3D"s">"fr"</span><span class=3D"nt">&gt;&lt;seg&gt;</span>Maj=
+est=C3=A9s, Altesses Royales, Monsieur le Pr=C3=A9sident, Mesdames et Messi=
+eurs les d=C3=A9put=C3=A9s!<span class=3D"nt">&lt;/seg&gt;&lt;/tuv&gt;</spa=
+n>
+    <span class=3D"nt">&lt;/tu&gt;</span>
+...
+</pre></div></div>
+         =20
+          <div class=3D"trac-modifiedby">
+            <span><a href=3D"http://opus.nlpl.eu/trac/wiki/DataFormats?acti=
+on=3Ddiff&amp;version=3D9" title=3D"Version 9 by tiedeman">Last modified</a=
+> <a class=3D"timeline" href=3D"http://opus.nlpl.eu/trac/timeline?from=3D20=
+17-11-15T20%3A24%3A54Z&amp;precision=3Dsecond" title=3D"See timeline at Nov=
+ 15, 2017, 8:24:54 PM">3 years ago</a></span>
+            <span class=3D"trac-print">Last modified on Nov 15, 2017, 8:24:=
+54 PM</span>
+          </div>
+       =20
+       =20
+      </div>
+     =20
+
+    </div>
+   =20
+    <div id=3D"altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class=3D"last first">
+          <a rel=3D"nofollow" href=3D"http://opus.nlpl.eu/trac/wiki/DataFor=
+mats?format=3Dtxt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id=3D"footer" lang=3D"en" xml:lang=3D"en"><hr>
+      <a id=3D"tracpowered" href=3D"http://trac.edgewall.org/"><img src=3D"=
+https://opus.nlpl.eu/trac/chrome/common/trac_logo_mini.png" height=3D"30" w=
+idth=3D"107" alt=3D"Trac Powered"></a>
+      <p class=3D"left">Powered by <a href=3D"https://opus.nlpl.eu/trac/abo=
+ut.html"><strong>Trac 1.0.1</strong></a><br>
+        By <a href=3D"http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class=3D"right">Visit the Trac open source project at<br><a href=
+=3D"http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+ =20
+
+</body></html>
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-a489668d-a221-49e6-ac44-23f05e21f57e@mhtml.blink
+
+@charset "utf-8";
+
+.ncf-container-otsledit { font-size: 14px !important; box-sizing: border-bo=
+x !important; position: fixed !important; z-index: 999999 !important; text-=
+align: left !important; }
+
+.ncf-container-otsledit.nfc-top-left-otsledit { top: 12px !important; left:=
+ 12px !important; }
+
+.ncf-container-otsledit.nfc-top-right-otsledit { top: 12px !important; righ=
+t: 12px !important; }
+
+.ncf-container-otsledit.nfc-bottom-right-otsledit { bottom: 12px !important=
+; right: 12px !important; }
+
+.ncf-container-otsledit.nfc-bottom-left-otsledit { bottom: 12px !important;=
+ left: 12px !important; }
+
+.ncf-container-otsledit .ncf-otsledit { background-image: initial; backgrou=
+nd-size: initial; background-attachment: initial; background-origin: initia=
+l; background-clip: initial; background-color: rgb(255, 255, 255); transiti=
+on: all 0.3s ease 0s !important; position: relative !important; pointer-eve=
+nts: auto !important; overflow: hidden !important; margin: 0px 0px 6px !imp=
+ortant; width: 300px !important; border-radius: 3px !important; box-shadow:=
+ rgb(153, 153, 153) 0px 0px 12px !important; color: rgb(0, 0, 0) !important=
+; opacity: 0.9 !important; background-position: 15px center !important; bac=
+kground-repeat: no-repeat !important; user-select: none !important; }
+
+.ncf-container-otsledit .ncf-otsledit:hover { box-shadow: rgb(0, 0, 0) 0px =
+0px 12px; opacity: 1; cursor: pointer; }
+
+.ncf-container-otsledit .ncf-otsledit .ncf-title-otsledit { font-weight: 70=
+0; font-size: 16px; text-align: left; margin-top: 0px; margin-bottom: 6px; =
+overflow-wrap: break-word; color: rgb(255, 255, 255) !important; }
+
+.ncf-container-otsledit .ncf-otsledit .nfc-message-otsledit { margin: 0px; =
+overflow-wrap: break-word; text-align: left !important; }
+
+.ncf-container-otsledit .success-otsledit { background: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAAR=
+nQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/=
+evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw=
+4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rs=
+w0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RD=
+vcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lw=
+AAAABJRU5ErkJggg=3D=3D") rgb(81, 163, 81); color: rgb(255, 255, 255); paddi=
+ng: 15px 15px 15px 50px; }
+
+.ncf-container-otsledit a { color: rgb(255, 255, 255) !important; text-alig=
+n: left !important; }
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/css/trac.css
+
+@charset "utf-8";
+
+html { overflow-y: scroll; }
+
+body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 10px; p=
+adding: 0px; }
+
+body, th, tr { font: 13px Verdana, Arial, "Bitstream Vera Sans", Helvetica,=
+ sans-serif; }
+
+h1, h2, h3, h4 { font-family: Arial, Verdana, "Bitstream Vera Sans", Helvet=
+ica, sans-serif; font-weight: bold; letter-spacing: -0.018em; break-after: =
+avoid; }
+
+h1 { font-size: 19px; margin: 0.15em 1em 0.5em 0px; }
+
+h2 { font-size: 16px; }
+
+h3 { font-size: 14px; }
+
+hr { border-right: none; border-bottom: none; border-left: none; border-ima=
+ge: initial; border-top: 1px solid rgb(204, 204, 187); margin: 2em 0px; }
+
+address { font-style: normal; }
+
+img { border: none; }
+
+.underline { text-decoration: underline; }
+
+ol.loweralpha { list-style-type: lower-alpha; }
+
+ol.upperalpha { list-style-type: upper-alpha; }
+
+ol.lowerroman { list-style-type: lower-roman; }
+
+ol.upperroman { list-style-type: upper-roman; }
+
+ol.arabic { list-style-type: decimal; }
+
+:link, :visited { text-decoration: none; color: rgb(187, 0, 0); border-bott=
+om: 1px dotted rgb(187, 187, 187); }
+
+:link:hover, :visited:hover { background-color: rgb(238, 238, 238); color: =
+rgb(85, 85, 85); }
+
+h1 :link, h1 :visited, h2 :link, h2 :visited, h3 :link, h3 :visited, h4 :li=
+nk, h4 :visited, h5 :link, h5 :visited, h6 :link, h6 :visited { color: inhe=
+rit; }
+
+.anchor:link, .anchor:visited { border: none; color: rgb(215, 215, 215); fo=
+nt-size: 0.8em; vertical-align: text-top; }
+
+* > .anchor:link, * > .anchor:visited { visibility: hidden; }
+
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:=
+hover .anchor, h6:hover .anchor, span:hover .anchor { visibility: visible; =
+}
+
+h1:target, h2:target, h3:target, h4:target, h5:target, h6:target, span:targ=
+et { background: rgb(255, 255, 187); box-shadow: rgb(221, 221, 170) 0.1em 0=
+.1em 0.4em 0.1em; border-radius: 0.2em; }
+
+@media screen {
+  a.ext-link .icon { background: url("../extlink.gif") left center no-repea=
+t; padding-left: 15px; }
+  a.mail-link .icon { background: url("../envelope.png") left center no-rep=
+eat; padding-left: 16px; }
+  a.trac-rawlink, a.trac-ziplink { background: url("../download.png") right=
+ center no-repeat; padding-right: 16px; border-bottom: none; }
+}
+
+input, textarea, select { margin: 2px; }
+
+input, select { vertical-align: middle; }
+
+input[type=3D"button"], input[type=3D"submit"], input[type=3D"reset"], butt=
+on { }
+
+input[type=3D"button"], input[type=3D"submit"], input[type=3D"reset"] { bac=
+kground: rgb(238, 238, 238); color: rgb(34, 34, 34); border: 1px outset rgb=
+(238, 238, 238); border-radius: 0.3em; box-shadow: rgb(136, 136, 136) 0.1em=
+ 0.1em 0.4em 0px; padding: 0.1em 0.5em 0.2em; text-shadow: rgb(221, 221, 22=
+1) 0.1em 0.1em; cursor: pointer; }
+
+input[type=3D"button"]:hover, input[type=3D"submit"]:hover, input[type=3D"r=
+eset"]:hover { background: rgb(246, 246, 246); box-shadow: rgb(153, 153, 15=
+3) 0.1em 0.1em 0.6em 0px; text-shadow: rgb(252, 252, 252) 0.1em 0.1em; }
+
+input[type=3D"button"]:active, input[type=3D"submit"]:active, input[type=3D=
+"reset"]:active { position: relative; top: 0.1em; left: 0.1em; }
+
+input[type=3D"button"][disabled], input[type=3D"submit"][disabled], input[t=
+ype=3D"reset"][disabled] { background: rgb(246, 246, 246); border-style: so=
+lid; color: rgb(153, 153, 153); }
+
+input[type=3D"text"], input.textwidget, textarea { border: 1px solid rgb(21=
+5, 215, 215); border-radius: 0.3em; }
+
+input[type=3D"text"], input.textwidget { padding: 0.25em 0.5em; }
+
+input[type=3D"text"]:focus, input.textwidget:focus, textarea:focus { border=
+: 1px solid rgb(136, 136, 102); }
+
+option { border-bottom: 1px dotted rgb(215, 215, 215); }
+
+fieldset { border: 1px solid rgb(215, 215, 215); border-radius: 0.4em; marg=
+in: 1em 0px; background: rgb(247, 247, 240); box-shadow: rgb(231, 231, 231)=
+ 0.1em 0.1em 1em 0px inset; padding: 1em; }
+
+p.hint, span.hint { color: rgb(102, 102, 102); font-size: 85%; font-style: =
+italic; margin: 0.5em 0px; padding-left: 1em; }
+
+legend { color: rgb(153, 153, 153); margin-left: 0.6em; padding: 0px 0.25em=
+; font-size: 90%; font-weight: bold; }
+
+label.disabled { color: rgb(215, 215, 215); }
+
+.buttons { margin: 0.5em 0.5em 0.5em 0px; }
+
+.buttons form, .buttons form div { display: inline; }
+
+.buttons input { margin: 1em 0.5em 0.1em 0px; }
+
+.inlinebuttons input { border: 1px solid rgb(221, 221, 221); border-radius:=
+ 1em; height: 1.6em; padding: 0px 0.4em 0.1em; font-size: 70%; box-shadow: =
+none; margin: 0px 0.1em 0.1em; background: none; color: rgb(128, 128, 128);=
+ cursor: pointer; }
+
+.uisymbols .inlinebuttons input[type=3D"button"], .uisymbols .inlinebuttons=
+ input[type=3D"submit"] { font-size: 100%; }
+
+.inlinebuttons input[type=3D"button"]:hover, .inlinebuttons input[type=3D"s=
+ubmit"]:hover { background: rgb(246, 246, 246); color: rgb(51, 51, 51); tex=
+t-shadow: rgb(252, 252, 252) 0.1em 0.1em; box-shadow: rgb(153, 153, 153) 0.=
+1em 0.1em 0.6em 0px; }
+
+input[type=3D"button"].trac-delete, input[type=3D"submit"].trac-delete { co=
+lor: rgb(211, 19, 19); }
+
+input[type=3D"button"].trac-delete:hover, input[type=3D"submit"].trac-delet=
+e:hover { color: rgb(227, 19, 19); }
+
+#header hr { display: none; }
+
+#header h1 { margin: 1.5em 0px -1.5em; padding: 0px; }
+
+#header img { border: none; margin: 0px 0px -3em; }
+
+#header :link, #header :visited, #header :link:hover, #header :visited:hove=
+r { background: transparent; color: rgb(85, 85, 85); margin-bottom: 2px; bo=
+rder: none; padding: 0px; }
+
+#header h1 :link:hover, #header h1 :visited:hover { color: rgb(0, 0, 0); }
+
+#search { clear: both; font-size: 10px; height: 2.2em; margin: 0px 0px 1em;=
+ text-align: right; }
+
+#search input { font-size: 10px; }
+
+#search label { display: none; }
+
+.nav h2, .nav hr { display: none; }
+
+.nav ul { font-size: 10px; list-style: none; margin: 0px; padding: 0px; tex=
+t-align: right; }
+
+.nav li { border-right: 1px solid rgb(215, 215, 215); display: inline-block=
+; padding: 0px 0.75em; white-space: nowrap; zoom: 1; }
+
+.nav li.last { border-right: none; }
+
+#metanav { padding-top: 0.3em; }
+
+#mainnav { font: 10px verdana, "Bitstream Vera Sans", helvetica, arial, san=
+s-serif; box-shadow: rgb(238, 238, 238) 0px 0.5em 1.5em; border: 1px solid =
+rgb(228, 228, 228); border-radius: 0.5em; margin: 0.66em 0px 0.33em; }
+
+#mainnav li { background: url("../topbar_gradient.png") 0px 0px white; bord=
+er: 1px solid rgb(228, 228, 228); margin: -1px 0.3em 0px -0.4em; padding: 0=
+.3em 0px; }
+
+#mainnav .first, #mainnav .first :link { border-top-left-radius: 0.5em; bor=
+der-bottom-left-radius: 0.5em; }
+
+#mainnav .last, #mainnav .last :link { border-top-right-radius: 0.5em; bord=
+er-bottom-right-radius: 0.5em; margin-right: 0px; }
+
+#mainnav :link, #mainnav :visited { border-bottom: none; box-shadow: rgb(15=
+3, 153, 153) 0px 0.1em 0.3em 0px; color: rgb(0, 0, 0); padding: 0.3em 20px;=
+ }
+
+#mainnav li:hover { border: 1px solid rgb(102, 102, 102); }
+
+#mainnav :link:hover, #mainnav :visited:hover { background: url("../topbar_=
+gradient2.png") 0px 0px repeat-x rgb(0, 0, 0); color: rgb(238, 238, 238); b=
+ox-shadow: rgb(102, 102, 102) 0px 0.1em 0.6em 0px; }
+
+#mainnav .active { border: 1px solid rgb(102, 102, 102); }
+
+#mainnav .active :link, #mainnav .active :visited { background: url("../top=
+bar_gradient2.png") 0px 0px repeat-x rgb(0, 0, 0); color: rgb(238, 238, 238=
+); text-shadow: rgb(238, 238, 238) 1px 0px; }
+
+#ctxtnav { min-height: 1em; padding: 0.4em 0px; }
+
+#ctxtnav li ul { background: rgb(247, 247, 247); color: rgb(204, 204, 204);=
+ border: 1px solid; padding: 0px; display: inline; margin: 0px; }
+
+#ctxtnav li li { padding: 0px; }
+
+#ctxtnav li li :link, #ctxtnav li li :visited { padding: 0px 1em; }
+
+#ctxtnav li li :link:hover, #ctxtnav li li :visited:hover { background: rgb=
+(187, 187, 170); color: rgb(255, 255, 255); }
+
+.trac-nav, .trac-topnav { float: right; font-size: 80%; }
+
+.trac-topnav { margin-top: 14px; }
+
+#altlinks { clear: both; margin-top: 0.4em; text-align: center; }
+
+#altlinks h3 { font-size: 12px; letter-spacing: normal; margin: 0px; }
+
+#altlinks ul { list-style: none; margin: 0px; }
+
+#altlinks li { border-right: 1px solid rgb(215, 215, 215); display: inline;=
+ font-size: 11px; line-height: 1.5; padding: 0px 1em; white-space: nowrap; =
+}
+
+#altlinks li.last { border-right: none; }
+
+#altlinks li :link, #altlinks li :visited { background-repeat: no-repeat; c=
+olor: rgb(102, 102, 102); border: none; padding: 0px 0px 2px; }
+
+#altlinks li a.ics { background: url("../ics.png") left center no-repeat; p=
+adding-left: 22px; }
+
+#altlinks li a.rss { background: url("../feed.png") left center no-repeat; =
+padding-left: 20px; }
+
+#footer { clear: both; color: rgb(187, 187, 187); font-size: 10px; height: =
+31px; padding: 0.25em 0px; }
+
+#footer :link, #footer :visited { color: rgb(187, 187, 187); }
+
+#footer hr { display: none; }
+
+#footer #tracpowered { border: 0px; float: left; }
+
+#footer #tracpowered:hover { background: transparent; }
+
+#footer p { margin: 0px; }
+
+#footer p.left { float: left; margin-left: 1em; padding: 0px 1em; border-le=
+ft: 1px solid rgb(215, 215, 215); border-right: 1px solid rgb(215, 215, 215=
+); }
+
+#footer p.right { float: right; text-align: right; }
+
+#content { position: relative; }
+
+div.trac-content { padding: 0.5em 1em; margin: 0.3em auto; border: 1px soli=
+d rgb(228, 228, 228); border-radius: 0.5em; box-shadow: rgb(238, 238, 238) =
+0.2em 0.3em 1.5em; }
+
+.uinohelp #help { display: none; }
+
+#help { clear: both; color: rgb(153, 153, 153); font-size: 90%; margin: 1em=
+; text-align: right; }
+
+#help :link, #help :visited { cursor: help; }
+
+#help hr { display: none; }
+
+.foldable :link, .foldable :visited { background: url("../expanded.png") 4p=
+x 50% no-repeat; border: none; border-radius: 0.3em; box-shadow: rgb(187, 1=
+87, 187) 0.1em 0.1em 0.3em 0px; color: rgb(34, 34, 34); text-shadow: rgb(25=
+2, 252, 252) 0.1em 0.1em; padding: 0.3em 0.5em 0.3em 20px; }
+
+.foldable :link:hover, .foldable :visited:hover { background-color: transpa=
+rent; }
+
+.collapsed > .foldable :link, .collapsed > .foldable :visited { background-=
+image: url("../collapsed.png"); }
+
+.collapsed > div, .collapsed > table, .collapsed > ul, .collapsed > dl { di=
+splay: none; }
+
+fieldset > legend.foldable :link, fieldset > legend.foldable :visited { col=
+or: rgb(102, 102, 102); font-size: 110%; text-shadow: rgb(221, 221, 221) 0.=
+1em 0.1em; }
+
+.collapsed legend.foldable { background: white; }
+
+h2 .trac-count, h3 .trac-count { margin-left: 0.2em; vertical-align: baseli=
+ne; color: rgb(153, 153, 153); font-size: 90%; font-weight: normal; }
+
+#prefs { background: rgb(247, 247, 240); border: 1px outset rgb(238, 238, 2=
+38); border-radius: 1em; box-shadow: rgb(119, 119, 119) 0.2em 0.2em 0.7em 0=
+px; float: right; font-size: 9px; padding: 0.8em; position: relative; margi=
+n: 0px 1em 1em; }
+
+* html #prefs { width: 26em; }
+
+#prefs input, #prefs select { font-size: 9px; vertical-align: middle; }
+
+#prefs fieldset { background: transparent; border: none; box-shadow: none; =
+margin: 0.5em; padding: 0px; }
+
+#prefs fieldset legend { background: transparent; color: rgb(0, 0, 0); font=
+-size: 9px; font-weight: normal; margin: 0px 0px 0px -1.5em; padding: 0px; =
+}
+
+#prefs .buttons { text-align: right; }
+
+#info { margin: 1em 0px 0px; background: rgb(247, 247, 240); border: 1px so=
+lid rgb(215, 215, 215); border-collapse: collapse; border-spacing: 0px; cle=
+ar: both; width: 100%; }
+
+#info th, #info td { font-size: 85%; padding: 2px 0.5em; vertical-align: to=
+p; }
+
+#info th { font-weight: bold; text-align: left; }
+
+#info td.message { width: 100%; }
+
+#info .message ul { padding: 0px; margin: 0px 2em; }
+
+#info .message p { margin: 0px; padding: 0px; }
+
+a.trac-diff::after { content: "=E2=88=86"; }
+
+.wikipage { padding-left: 18px; }
+
+.wikipage h1, .wikipage h2, .wikipage h3 { margin-left: -18px; }
+
+.wikipage table h1, .wikipage table h2, .wikipage table h3 { margin-left: 0=
+px; }
+
+div.compact > p:first-child { margin-top: 0px; }
+
+div.compact > p:last-child { margin-bottom: 0px; }
+
+a.missing:link, a.missing:visited, a.missing, span.missing, a.forbidden, sp=
+an.forbidden { color: rgb(153, 153, 136); }
+
+a.missing:hover { color: rgb(0, 0, 0); }
+
+a.closed:link, a.closed:visited, span.closed { text-decoration: line-throug=
+h; }
+
+.important { background: rgb(255, 204, 187); border: 1px dotted rgb(221, 0,=
+ 0); color: rgb(85, 0, 0); padding: 0px 0.5em; margin: 0.5em; }
+
+dl.wiki dt { font-weight: bold; }
+
+dl.compact dt { float: left; padding-right: 0.5em; }
+
+dl.compact dd { margin: 0px; padding: 0px; }
+
+pre.wiki, pre.literal-block { background: rgb(247, 247, 247); border: 1px s=
+olid rgb(215, 215, 215); box-shadow: rgb(238, 238, 238) 0px 0px 1em; border=
+-radius: 0.3em; margin: 1em 1.75em; padding: 0.25em; overflow: auto; }
+
+tt { color: rgb(102, 0, 0); border: 1px solid rgb(238, 221, 204); border-ra=
+dius: 0.25em; padding: 0px 0.3em; background: rgb(250, 250, 250); }
+
+blockquote.citation { margin: -0.6em 0px; border-style: solid; border-width=
+: 0px 0px 0px 2px; padding-left: 0.5em; border-color: rgb(187, 68, 68); }
+
+.citation blockquote.citation { border-color: rgb(68, 187, 68); }
+
+.citation .citation blockquote.citation { border-color: rgb(68, 68, 187); }
+
+.citation .citation .citation blockquote.citation { border-color: rgb(204, =
+85, 85); }
+
+table.wiki { border: 1px solid rgb(204, 204, 204); border-collapse: collaps=
+e; border-spacing: 0px; box-shadow: rgb(238, 238, 238) 0px 0px 1em; }
+
+table.wiki td { border: 1px solid rgb(204, 204, 204); padding: 0.1em 0.25em=
+; }
+
+table.wiki th { border: 1px solid rgb(187, 187, 187); padding: 0.1em 0.25em=
+; background-color: rgb(247, 247, 247); }
+
+.wikitoolbar { margin-top: 0.3em; margin-left: 2px; border-style: solid; bo=
+rder-color: rgb(215, 215, 215); border-image: initial; border-width: 1px 1p=
+x 1px 0px; height: 18px; width: 234px; }
+
+.wikitoolbar :link, .wikitoolbar :visited { background: url("../edit_toolba=
+r.png") no-repeat transparent; border-width: 1px; border-style: solid; bord=
+er-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255) rgb(215,=
+ 215, 215); border-image: initial; cursor: default; display: block; float: =
+left; width: 24px; height: 16px; }
+
+.wikitoolbar :link:hover, .wikitoolbar :visited:hover { background-color: t=
+ransparent; border: 1px solid rgb(255, 187, 34); }
+
+.wikitoolbar a#em { background-position: 0px 0px; }
+
+.wikitoolbar a#strong { background-position: 0px -16px; }
+
+.wikitoolbar a#heading { background-position: 0px -32px; }
+
+.wikitoolbar a#link { background-position: 0px -48px; }
+
+.wikitoolbar a#code { background-position: 0px -64px; }
+
+.wikitoolbar a#hr { background-position: 0px -80px; }
+
+.wikitoolbar a#np { background-position: 0px -96px; }
+
+.wikitoolbar a#br { background-position: 0px -112px; }
+
+.wikitoolbar a#img { background-position: 0px -128px; }
+
+div.trac-resizable { display: table; width: 1px; }
+
+div.trac-resizable > div { display: table-cell; }
+
+div.trac-resizable textarea { display: block; margin-bottom: 0px; }
+
+div.trac-grip { height: 5px; overflow: hidden; background: url("../grip.png=
+") center 1px no-repeat rgb(238, 238, 238); border-width: 0px 1px 1px; bord=
+er-style: solid; border-color: rgb(221, 221, 221); border-image: initial; c=
+ursor: s-resize; }
+
+#attachment .field { margin-top: 1.3em; }
+
+#attachment label { padding-left: 0.2em; }
+
+#attachment fieldset { margin-top: 2em; }
+
+#attachment fieldset .field { float: left; margin: 0px 1em 0.5em 0px; }
+
+#attachment .options { float: left; padding: 0px 0px 1em 1em; }
+
+#attachment br { clear: left; }
+
+.attachment #preview { margin-top: 1em; }
+
+#attachments > div.attachments { padding: 0px 0px 1em 1em; }
+
+#attachments dl.attachments { margin-left: 2em; padding: 0px; }
+
+#attachments dt { display: list-item; list-style: square; }
+
+#attachments dd { font-style: italic; margin-left: 0px; padding-left: 0px; =
+}
+
+#attachments p { margin-left: 2em; font-size: 90%; color: rgb(102, 102, 102=
+); }
+
+#attachments > div.attachments > p { float: right; margin: 0.4em 0px; }
+
+table.listing { clear: both; border-bottom: 1px solid rgb(215, 215, 215); b=
+order-collapse: collapse; border-spacing: 0px; box-shadow: rgb(238, 238, 23=
+8) 0.2em 0.3em 1.5em; margin-top: 1em; width: 100%; }
+
+table.listing th { text-align: left; padding: 0px 1em 0.1em 0px; font-size:=
+ 12px; }
+
+table.listing th.sel, table.listing td.sel { text-align: center; width: 1%;=
+ }
+
+table.listing thead tr { background: rgb(247, 247, 240); }
+
+table.listing thead th { border-width: 1px; border-style: solid; border-col=
+or: rgb(215, 215, 215) rgb(215, 215, 215) rgb(153, 153, 153); border-image:=
+ initial; font-size: 11px; font-weight: bold; padding: 2px 0.5em; vertical-=
+align: bottom; white-space: nowrap; }
+
+table.listing thead th :link:hover, table.listing thead th :visited:hover {=
+ background-color: transparent; }
+
+table.listing thead th a { border: none; padding-right: 12px; }
+
+table.listing th.asc a, table.listing th.desc a { font-weight: bold; backgr=
+ound-position: 100% 50%; background-repeat: no-repeat; }
+
+table.listing th.asc a { background-image: url("../asc.png"); }
+
+table.listing th.desc a { background-image: url("../desc.png"); }
+
+table.listing tbody td, table.listing tbody th { border: 1px dotted rgb(221=
+, 221, 221); padding: 0.3em 0.5em; vertical-align: top; }
+
+table.listing tbody td a:hover, table.listing tbody th a:hover { background=
+-color: transparent; }
+
+table.listing tbody tr { border-top: 1px solid rgb(221, 221, 221); }
+
+table.listing tbody tr.even { background-color: rgb(252, 252, 252); }
+
+table.listing tbody tr.odd { background-color: rgb(247, 247, 247); }
+
+table.listing tbody tr:hover { background: rgb(238, 238, 221) !important; }
+
+table.listing tbody tr.focus { background: rgb(221, 221, 255) !important; }
+
+table.listing pre { white-space: pre-wrap; }
+
+#fieldhist td { padding: 0px 0.5em; }
+
+#fieldhist td.date, #fieldhist td.diff, #fieldhist td.version, #fieldhist t=
+d.author { white-space: nowrap; }
+
+#fieldhist td.version { text-align: center; }
+
+#fieldhist td.comment { width: 100%; }
+
+.suggestions { background: rgb(255, 255, 255); border: 1px solid rgb(136, 1=
+36, 102); color: rgb(34, 34, 34); }
+
+.suggestions ul { font-family: sans-serif; max-height: 20em; min-height: 3e=
+m; list-style: none; margin: 0px; overflow: auto; padding: 0px; width: 440p=
+x; }
+
+* html .suggestions ul { height: 10em; }
+
+.suggestions li { background: rgb(255, 255, 255); cursor: pointer; padding:=
+ 2px 5px; }
+
+.suggestions li.selected { background: rgb(185, 185, 185); }
+
+#content.error .message, div.system-message { background: rgb(255, 221, 204=
+); border: 2px solid rgb(221, 0, 0); color: rgb(85, 0, 0); padding: 0.5em; =
+margin: 1em 0px; }
+
+#content.error div.message pre, div.system-message pre { margin-left: 1em; =
+overflow: hidden; white-space: normal; }
+
+div.system-message p { margin: 0px; }
+
+div.system-message p.system-message-title { font-weight: bold; }
+
+span.system-message { float: left; background: rgb(255, 221, 204); padding:=
+ 0.2em; margin: 1px; border-radius: 0.25em; }
+
+div.system-message { border-radius: 0.5em; box-shadow: rgb(119, 119, 119) 0=
+.2em 0.2em 0.7em 0px; }
+
+#warning.system-message, .warning.system-message { background: rgb(255, 255=
+, 187); border: 1px solid rgb(85, 0, 0); }
+
+#warning.system-message li { list-style-type: square; }
+
+#notice.system-message, .notice.system-message { background: rgb(221, 255, =
+221); border: 1px solid rgb(85, 0, 0); }
+
+#notice.system-message li { list-style-type: square; }
+
+div.system-message .trac-close-msg { display: none; float: right; font-size=
+: 80%; border: 1px solid rgb(221, 221, 221); border-radius: 1em; padding: 0=
+px 0.4em 0.1em; box-shadow: none; margin: 0px 0.1em 0.1em 0px; background: =
+none; color: rgb(211, 19, 19); height: 1.4em; }
+
+div.system-message .trac-close-msg:hover { background: rgb(246, 246, 246); =
+color: rgb(51, 51, 51); text-shadow: rgb(252, 252, 252) 0.1em 0.1em; box-sh=
+adow: rgb(153, 153, 153) 0.1em 0.1em 0.6em 0px; }
+
+.uisymbols div.system-message .trac-close-msg > span { display: none; }
+
+.uisymbols div.system-message .trac-close-msg::after { content: "x"; }
+
+#content.error form.newticket { display: inline; }
+
+#content.error form.newticket textarea { display: none; }
+
+#content.error #systeminfo, #content.error #plugins { margin: 1em; width: a=
+uto; }
+
+#content.error #systeminfo th, #content.error #systeminfo td, #content.erro=
+r #plugins th, #content.error #plugins td { font-size: 90%; }
+
+#content.error #systeminfo th, #content.error #plugins th { background: rgb=
+(247, 247, 247); font-weight: bold; }
+
+#content.error #traceback { margin-left: 1em; }
+
+#content.error #traceback :link, #content.error #traceback :visited { borde=
+r: none; }
+
+#content.error #tbtoggle { font-size: 80%; }
+
+#content.error #traceback div { margin-left: 1em; }
+
+#content.error #traceback h3 { font-size: 95%; margin: 0.5em 0px 0px; }
+
+#content.error #traceback :link var, #content.error #traceback :visited var=
+ { font-family: monospace; font-style: normal; font-weight: bold; }
+
+#content.error #traceback span.file { color: rgb(102, 102, 102); font-size:=
+ 85%; }
+
+#content.error #traceback ul { list-style: none; margin: 0.5em 0px; padding=
+: 0px; }
+
+#content.error #traceback table.code td { white-space: pre; font-size: 90%;=
+ }
+
+#content.error #traceback table.code tr.current td { background: rgb(230, 2=
+30, 230); }
+
+#content.error #traceback table { margin: 0.5em 0px 1em; }
+
+#content.error #traceback th, #content.error #traceback td { font-size: 85%=
+; padding: 1px; }
+
+#content.error #traceback th var { font-family: monospace; font-style: norm=
+al; }
+
+#content.error #traceback td code { white-space: pre; }
+
+#content.error #traceback pre { font-size: 95%; }
+
+#content.error #plugins td.file { color: rgb(102, 102, 102); }
+
+#content .paging { margin: 0px 0px 2em; padding: 0.5em 0px 0px; font-size: =
+85%; line-height: 2em; text-align: center; }
+
+#content .paging .current { padding: 0.1em 0.3em; border: 1px solid rgb(51,=
+ 51, 51); background: rgb(153, 153, 153); color: rgb(255, 255, 255); }
+
+#content .paging :link, #content .paging :visited { padding: 0.1em 0.3em; b=
+order: 1px solid rgb(102, 102, 102); background: transparent; color: rgb(10=
+2, 102, 102); }
+
+#content .paging :link:hover, #content .paging :visited:hover { background:=
+ rgb(153, 153, 153); color: rgb(255, 255, 255); border-color: rgb(51, 51, 5=
+1); }
+
+#content .paging .previous a, #content .paging .next a { font-size: 150%; f=
+ont-weight: bold; border: none; }
+
+#content .paging .previous a:hover, #content .paging .next a:hover { backgr=
+ound: transparent; color: rgb(102, 102, 102); }
+
+#content h2 .numresults { color: rgb(102, 102, 102); font-size: 90%; }
+
+@media screen {
+  .searchword0 { background: rgb(255, 255, 153); }
+  .searchword1 { background: rgb(204, 255, 204); }
+  .searchword2 { background: rgb(204, 255, 255); }
+  .searchword3 { background: rgb(204, 204, 255); }
+  .searchword4 { background: rgb(255, 204, 255); }
+}
+
+@media print {
+  #header, #altlinks, #footer, #help, #warning, #notice { display: none; }
+  .nav, form, .buttons form, form .buttons, form .inlinebuttons, .noprint, =
+.trac-nav, .trac-topnav, #attachments > div.attachments > p { display: none=
+; }
+  form.printableform { display: block; }
+  div.code pre { white-space: pre-wrap; }
+  :link, :visited { border-bottom: none; }
+  div.trac-content { box-shadow: none; }
+  .foldable :link, .foldable :visited { text-shadow: none; box-shadow: none=
+; }
+}
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/topbar_gradient.png
+
+iVBORw0KGgoAAAANSUhEUgAAAIAAAAAgCAMAAADt/IAXAAAAHlBMVEUAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADj4+P///+M+HONAAAACXRSTlMAAwUICg0PEhJ7S7dSAAAAQ0lEQVR42u3VwREAIAjE
+wCCK9l+xZeRzW0EezIFuZBwZLWPJKBlPhq5kCcgNsGS0jC1LQN5xljBDxMi4sgT4ASPLL/icIjMB
+Y3hxbgAAAABJRU5ErkJggg==
+
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/topbar_gradient2.png
+
+iVBORw0KGgoAAAANSUhEUgAAAQAAAAAgCAMAAADKd1bWAAAAVFBMVEXi69jk7dvk7eTm5t7m79bo
+8ODr8t3m7Nrm7ODj6d7j7t7m8Nzj597o8dvl7tzn69/n79vo8Nzl6eHo7uHn7eHm7OHn6eTo7ePm
+6eTm6OTm6+EAAACoLQyLAAAAG3RSTlMaHBwfHyEmKSkuLjM2ODtAQEJFTFRcXmNmcHBPAHuPAAAA
+f0lEQVR4Ae3UOxKCMAAA0VXRgPLRkAhy/4Na6YTO0pnNO8IWy/Nr3Xn9Yi3lUtqZS/Fj+gcs0a0G
+0AfYagA3aoC7G9vgxnJ1I1/cSDWAGym4kfQTHNzIDzfmmxtTcKNv3GgPbrTInZA7Indu3OiCG9Po
+Rhzd6IMbnX6CyHW4vQFJdjCHGiWvWAAAAABJRU5ErkJggg==
+
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/css/wiki.css
+
+@charset "utf-8";
+
+@import url("code.css");
+
+#info { margin: 0px 0px 1em; }
+
+#wikipage { clear: both; }
+
+.wikipage h2 { border-bottom: 1px solid rgb(221, 221, 221); box-shadow: rgb=
+(242, 242, 242) 0.1em 0.4em 0.7em 0px; padding: 0.2em 0.3em 0.1em; }
+
+@media print {
+  .wikipage h2 { box-shadow: none; }
+}
+
+.wikipage h3 { border-bottom: 1px dashed rgb(221, 221, 221); }
+
+.wikipage .trac-content { margin-left: -18px; padding-left: 28px; }
+
+#pagepath { font-size: 10px; float: left; padding: 0.4em 0px; }
+
+#pagepath :link, #pagepath :visited { margin: 0px 0.2em; }
+
+#pagepath .first:link, #pagepath .first:visited { color: rgb(153, 153, 136)=
+; }
+
+#pagepath .sep { color: rgb(102, 102, 102); padding: 0px 0.1em; }
+
+#pagepath .pathentry { float: left; }
+
+.preview-right { float: right; width: 50%; display: block; margin: 0px 0px =
+0px 1em; }
+
+.sidebyside > h2 { margin: 0.4em 0px; }
+
+.sidebyside #preview { margin: 0px; }
+
+.sidebyside #text { overflow: hidden; }
+
+#edit { margin-top: 0.5em; }
+
+#edit #rows { float: right; font-size: 80%; margin: 0.4em 0px 0px; }
+
+#edit #rows select { font-size: 90%; }
+
+#edit fieldset { margin-left: 1px; margin-right: 1px; }
+
+#edit #text { clear: both; margin-left: -1px; margin-right: -1px; padding: =
+0px; width: 100%; min-height: 10em; resize: vertical; }
+
+#edit .wikitoolbar { float: left; margin-left: -1px; }
+
+#edit div.trac-resizable { clear: both; width: 100%; }
+
+#edit + #info { margin-top: 1em; }
+
+#edit + #attachments { margin-top: 1.5em; }
+
+#changeinfo { padding: 0.5em; }
+
+#changeinfo .field { float: left; margin: 0px 1em 0.5em 0px; }
+
+#changeinfo { clear: both; }
+
+#changeinfo br { clear: left; }
+
+#changeinfo .options { padding: 0px 0px 1em 1em; }
+
+#changeinfo .options, #changeinfo .buttons { clear: left; }
+
+#delete, #rename, #save { margin-left: 3em; }
+
+#preview { background: url("../draft.png") rgb(248, 248, 248); margin: 1em =
+0px 2em; overflow: auto; }
+
+#template { vertical-align: middle; padding-top: 1em; }
+
+#overview .multi { color: rgb(153, 153, 153); }
+
+#overview .ipnr { color: rgb(153, 153, 153); font-size: 80%; }
+
+#overview .comment { padding: 1em 0px 0px; }
+
+@media print {
+  th.diff, td.diff { display: none; }
+}
+
+.wiki-toc { padding: 0.5em 1em; margin: 0px 0px 2em 1em; float: right; clea=
+r: right; border: 1px outset rgb(221, 221, 204); background: rgb(255, 255, =
+221); font-size: 85%; position: relative; }
+
+.wiki-toc h4 { font-size: 12px; margin: 0px; }
+
+.wiki-toc ul, .wiki-toc ol { list-style: none; padding: 0px; margin: 0px; }
+
+.wiki-toc ul ul, .wiki-toc ol ol { padding-left: 1.2em; }
+
+.wiki-toc li { margin: 0px; padding: 0px; }
+
+.wiki-toc .active { background: rgb(255, 255, 153); position: relative; }
+
+.wiki-toc-un ul, .wiki-toc-un ol { list-style: none; }
+
+div.trac-modifiedby { margin: 0.3em 0.5em; color: rgb(136, 136, 136); font-=
+size: 80%; font-style: italic; text-align: right; float: right; }
+
+div.trac-modifiedby :link, div.trac-modifiedby :visited { color: inherit; }
+
+div.trac-modifiedby span.trac-print { display: none; }
+
+@media print {
+  div.trac-modifiedby span { display: none; }
+  div.trac-modifiedby span.trac-print { display: block; }
+}
+
+.rtl { direction: rtl; }
+
+.rtl div.wiki-toc { float: left; }
+
+.rtl .wiki-toc ul ul, .wiki-toc ol ol { padding-right: 1.2em; }
+
+div.tracini td.default { font-size: 90%; }
+
+div.tracini td.nodefault { color: rgb(119, 119, 119); font-size: 85%; font-=
+style: italic; white-space: nowrap; }
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/css/code.css
+
+@charset "utf-8";
+
+div.code { background: rgb(247, 247, 247); border: 1px solid rgb(215, 215, =
+215); border-radius: 0.3em; margin: 1em 1.75em; padding: 0.25em; overflow: =
+auto; }
+
+div.code pre { margin: 0px; overflow: auto; }
+
+table.code { border-width: 0px 1px 1px; border-right-style: solid; border-b=
+ottom-style: solid; border-left-style: solid; border-right-color: rgb(221, =
+221, 221); border-bottom-color: rgb(221, 221, 221); border-left-color: rgb(=
+221, 221, 221); border-image: initial; border-spacing: 0px; border-top-styl=
+e: initial; border-top-color: initial; border-collapse: collapse; empty-cel=
+ls: show; font-size: 12px; line-height: 130%; padding: 0px; margin: 0px aut=
+o; table-layout: fixed; width: 100%; }
+
+table.code th { border-right: 1px solid rgb(215, 215, 215); border-bottom: =
+1px solid rgb(153, 153, 136); font-size: 11px; }
+
+table.code th.lineno { width: 4em; }
+
+table.code thead th { background: rgb(238, 238, 238); border-top: 1px solid=
+ rgb(215, 215, 215); color: rgb(153, 153, 153); padding: 0px 0.25em; text-a=
+lign: center; white-space: nowrap; }
+
+table.code thead th.content { text-align: left; }
+
+table.code thead th.content span.recover { background: rgb(247, 247, 247); =
+border-left: 1px solid; border-right: 1px solid; cursor: pointer; margin: 0=
+px 1em 0px 0px; padding: 0px 0.5em; }
+
+table.code tbody th { background: rgb(238, 238, 221); color: rgb(136, 136, =
+102); font-weight: normal; padding: 0px 0.5em; text-align: right; vertical-=
+align: top; }
+
+table.code tbody th :link, table.code tbody th :visited { border: none; col=
+or: rgb(136, 136, 102); text-decoration: none; }
+
+table.code tbody th :link:hover, table.code tbody th :visited:hover { color=
+: rgb(0, 0, 0); }
+
+table.code td { font: 11px monospace; overflow: hidden; padding: 1px 2px; v=
+ertical-align: top; }
+
+table.code tr.hilite th { background: rgb(204, 204, 255); }
+
+table.code tr.hilite td { background: rgb(221, 221, 255); }
+
+.image-file { background: rgb(238, 238, 238); padding: 0.3em; }
+
+.image-file img { background: url("../imggrid.png"); }
+
+.code-block span { font-family: monospace; }
+
+.code-comment, .css_comment, .c_comment, .c_commentdoc, .c_commentline, .c_=
+commentlinedoc, .h_comment, .pl_commentline, .p_commentblock, .p_commentlin=
+e, .hphp_comment, .hphp_commentblock, .hphp_commentline, .yaml_comment { co=
+lor: rgb(153, 153, 136); font-style: italic; }
+
+.code-keyword, .pl_word { color: rgb(119, 136, 153); font-weight: bold; }
+
+.code-type, .c_word, .c_word2, .p_classname, .hphp_classname { color: rgb(6=
+8, 102, 136); font-weight: bold; }
+
+.code-func, .p_defname { color: rgb(153, 0, 0); font-weight: bold; border-b=
+ottom: none; }
+
+.code-prep, .c_preprocessor, .pl_preprocessor, .yaml_identifier { color: rg=
+b(153, 153, 153); font-weight: bold; }
+
+.code-lang, .p_word { color: rgb(0, 0, 0); font-weight: bold; }
+
+.code-string, .c_string, .c_stringeol, .css_doublestring, .css_singlestring=
+, .h_singlestring, .h_doublestring, .pl_string, .pl_string_q, .pl_string_qq=
+, .pl_string_qr, .pl_string_qw, .pl_string_qx, .pl_backticks, .pl_character=
+, .p_string, .p_stringeol, .hphp_string, .hphp_stringeol, .hphp_triple, .hp=
+hp_tripledouble, .p_character, .p_triple, .p_tripledouble { color: rgb(187,=
+ 136, 68); font-weight: normal; }
+
+.code-var { color: rgb(255, 153, 255); }
+
+.css_id, .css_class, .css_pseudoclass, .css_tag { color: rgb(144, 0, 0); }
+
+.css_directive { color: rgb(0, 144, 0); font-weight: bold; }
+
+.css_important { color: blue; }
+
+.css_operator { color: rgb(0, 0, 144); font-weight: bold; }
+
+.css_tag { font-weight: bold; }
+
+.css_unknown_identifier, .css_unknown_pseudoclass { color: red; }
+
+.css_value { color: navy; }
+
+.c_commentdockeyword { color: navy; font-weight: bold; }
+
+.c_commentdockeyworderror { color: red; font-weight: bold; }
+
+.c_character, .c_regex, .c_uuid, .c_verbatim { color: olive; }
+
+.c_number { color: rgb(0, 153, 153); }
+
+.h_asp { color: rgb(255, 255, 0); }
+
+.h_aspat { color: rgb(255, 223, 0); }
+
+.h_attribute { color: teal; }
+
+.h_attributeunknown { color: red; }
+
+.h_cdata { color: rgb(51, 119, 51); }
+
+.h_entity { color: purple; }
+
+.h_number { color: rgb(0, 153, 153); }
+
+.h_other { color: purple; }
+
+.h_script, .h_tag, .h_tagend { color: navy; }
+
+.h_tagunknown { color: red; }
+
+.h_xmlend, .h_xmlstart { color: blue; }
+
+.pl_datasection { color: olive; }
+
+.pl_error { color: red; font-weight: bold; }
+
+.pl_hash { color: rgb(0, 0, 0); }
+
+.pl_here_delim, .pl_here_q, .pl_here_qq, .pl_here_qx, .pl_longquote { color=
+: olive; }
+
+.pl_number { color: rgb(0, 153, 153); }
+
+.pl_pod { font-style: italic; }
+
+.pl_regex, .pl_regsubst { color: olive; }
+
+.p_number { color: rgb(0, 153, 153); }
+
+.hphp_character { color: olive; }
+
+.hphp_defname { color: rgb(0, 153, 153); font-weight: bold; }
+
+.hphp_number { color: rgb(0, 153, 153); }
+
+.hphp_word { color: navy; font-weight: bold; }
+
+.yaml_document { color: gray; font-style: italic; }
+
+.yaml_keyword { color: rgb(136, 0, 136); }
+
+.yaml_number { color: rgb(136, 0, 0); }
+
+.yaml_reference { color: rgb(0, 136, 136); }
+
+.v_comment { color: gray; font-style: italic; }
+
+.v_commentline, .v_commentlinebang { color: red; font-style: italic; }
+
+.v_number, .v_preprocessor { color: rgb(0, 153, 153); }
+
+.v_string, .v_stringeol { color: olive; }
+
+.v_user { color: blue; font-weight: bold; }
+
+.v_word, .v_word3 { color: navy; font-weight: bold; }
+
+.v_word2 { color: green; font-weight: bold; }
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://opus.nlpl.eu/trac/pygments/trac.css
+
+@charset "utf-8";
+
+div.code pre .hll { background-color: rgb(255, 255, 204); }
+
+div.code pre { background: rgb(255, 255, 255); }
+
+div.code pre .c { color: rgb(153, 153, 136); font-style: italic; }
+
+div.code pre .err { color: rgb(166, 23, 23); background-color: rgb(227, 210=
+, 210); }
+
+div.code pre .k { font-weight: bold; }
+
+div.code pre .o { font-weight: bold; }
+
+div.code pre .cm { color: rgb(153, 153, 136); font-style: italic; }
+
+div.code pre .cp { color: rgb(153, 153, 153); font-weight: bold; }
+
+div.code pre .c1 { color: rgb(153, 153, 136); font-style: italic; }
+
+div.code pre .cs { color: rgb(153, 153, 153); font-weight: bold; font-style=
+: italic; }
+
+div.code pre .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221=
+); }
+
+div.code pre .ge { font-style: italic; }
+
+div.code pre .gr { color: rgb(170, 0, 0); }
+
+div.code pre .gh { color: rgb(153, 153, 153); }
+
+div.code pre .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221=
+); }
+
+div.code pre .go { color: rgb(136, 136, 136); }
+
+div.code pre .gp { color: rgb(85, 85, 85); }
+
+div.code pre .gs { font-weight: bold; }
+
+div.code pre .gu { color: rgb(170, 170, 170); }
+
+div.code pre .gt { color: rgb(170, 0, 0); }
+
+div.code pre .kc { font-weight: bold; }
+
+div.code pre .kd { font-weight: bold; }
+
+div.code pre .kn { font-weight: bold; }
+
+div.code pre .kp { font-weight: bold; }
+
+div.code pre .kr { font-weight: bold; }
+
+div.code pre .kt { color: rgb(68, 85, 136); font-weight: bold; }
+
+div.code pre .m { color: rgb(0, 153, 153); }
+
+div.code pre .s { color: rgb(187, 136, 68); }
+
+div.code pre .na { color: rgb(0, 128, 128); }
+
+div.code pre .nb { color: rgb(153, 153, 153); }
+
+div.code pre .nc { color: rgb(68, 85, 136); font-weight: bold; }
+
+div.code pre .no { color: rgb(0, 128, 128); }
+
+div.code pre .ni { color: rgb(128, 0, 128); }
+
+div.code pre .ne { color: rgb(153, 0, 0); font-weight: bold; }
+
+div.code pre .nf { color: rgb(153, 0, 0); font-weight: bold; }
+
+div.code pre .nn { color: rgb(85, 85, 85); }
+
+div.code pre .nt { color: rgb(0, 0, 128); }
+
+div.code pre .nv { color: rgb(0, 128, 128); }
+
+div.code pre .ow { font-weight: bold; }
+
+div.code pre .w { color: rgb(187, 187, 187); }
+
+div.code pre .mf { color: rgb(0, 153, 153); }
+
+div.code pre .mh { color: rgb(0, 153, 153); }
+
+div.code pre .mi { color: rgb(0, 153, 153); }
+
+div.code pre .mo { color: rgb(0, 153, 153); }
+
+div.code pre .sb { color: rgb(187, 136, 68); }
+
+div.code pre .sc { color: rgb(187, 136, 68); }
+
+div.code pre .sd { color: rgb(187, 136, 68); }
+
+div.code pre .s2 { color: rgb(187, 136, 68); }
+
+div.code pre .se { color: rgb(187, 136, 68); }
+
+div.code pre .sh { color: rgb(187, 136, 68); }
+
+div.code pre .si { color: rgb(187, 136, 68); }
+
+div.code pre .sx { color: rgb(187, 136, 68); }
+
+div.code pre .sr { color: rgb(128, 128, 0); }
+
+div.code pre .s1 { color: rgb(187, 136, 68); }
+
+div.code pre .ss { color: rgb(187, 136, 68); }
+
+div.code pre .bp { color: rgb(153, 153, 153); }
+
+div.code pre .vc { color: rgb(0, 128, 128); }
+
+div.code pre .vg { color: rgb(0, 128, 128); }
+
+div.code pre .vi { color: rgb(0, 128, 128); }
+
+div.code pre .il { color: rgb(0, 153, 153); }
+
+table.code td .hll { background-color: rgb(255, 255, 204); }
+
+table.code td { background: rgb(255, 255, 255); }
+
+table.code td .c { color: rgb(153, 153, 136); font-style: italic; }
+
+table.code td .err { color: rgb(166, 23, 23); background-color: rgb(227, 21=
+0, 210); }
+
+table.code td .k { font-weight: bold; }
+
+table.code td .o { font-weight: bold; }
+
+table.code td .cm { color: rgb(153, 153, 136); font-style: italic; }
+
+table.code td .cp { color: rgb(153, 153, 153); font-weight: bold; }
+
+table.code td .c1 { color: rgb(153, 153, 136); font-style: italic; }
+
+table.code td .cs { color: rgb(153, 153, 153); font-weight: bold; font-styl=
+e: italic; }
+
+table.code td .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 22=
+1); }
+
+table.code td .ge { font-style: italic; }
+
+table.code td .gr { color: rgb(170, 0, 0); }
+
+table.code td .gh { color: rgb(153, 153, 153); }
+
+table.code td .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 22=
+1); }
+
+table.code td .go { color: rgb(136, 136, 136); }
+
+table.code td .gp { color: rgb(85, 85, 85); }
+
+table.code td .gs { font-weight: bold; }
+
+table.code td .gu { color: rgb(170, 170, 170); }
+
+table.code td .gt { color: rgb(170, 0, 0); }
+
+table.code td .kc { font-weight: bold; }
+
+table.code td .kd { font-weight: bold; }
+
+table.code td .kn { font-weight: bold; }
+
+table.code td .kp { font-weight: bold; }
+
+table.code td .kr { font-weight: bold; }
+
+table.code td .kt { color: rgb(68, 85, 136); font-weight: bold; }
+
+table.code td .m { color: rgb(0, 153, 153); }
+
+table.code td .s { color: rgb(187, 136, 68); }
+
+table.code td .na { color: rgb(0, 128, 128); }
+
+table.code td .nb { color: rgb(153, 153, 153); }
+
+table.code td .nc { color: rgb(68, 85, 136); font-weight: bold; }
+
+table.code td .no { color: rgb(0, 128, 128); }
+
+table.code td .ni { color: rgb(128, 0, 128); }
+
+table.code td .ne { color: rgb(153, 0, 0); font-weight: bold; }
+
+table.code td .nf { color: rgb(153, 0, 0); font-weight: bold; }
+
+table.code td .nn { color: rgb(85, 85, 85); }
+
+table.code td .nt { color: rgb(0, 0, 128); }
+
+table.code td .nv { color: rgb(0, 128, 128); }
+
+table.code td .ow { font-weight: bold; }
+
+table.code td .w { color: rgb(187, 187, 187); }
+
+table.code td .mf { color: rgb(0, 153, 153); }
+
+table.code td .mh { color: rgb(0, 153, 153); }
+
+table.code td .mi { color: rgb(0, 153, 153); }
+
+table.code td .mo { color: rgb(0, 153, 153); }
+
+table.code td .sb { color: rgb(187, 136, 68); }
+
+table.code td .sc { color: rgb(187, 136, 68); }
+
+table.code td .sd { color: rgb(187, 136, 68); }
+
+table.code td .s2 { color: rgb(187, 136, 68); }
+
+table.code td .se { color: rgb(187, 136, 68); }
+
+table.code td .sh { color: rgb(187, 136, 68); }
+
+table.code td .si { color: rgb(187, 136, 68); }
+
+table.code td .sx { color: rgb(187, 136, 68); }
+
+table.code td .sr { color: rgb(128, 128, 0); }
+
+table.code td .s1 { color: rgb(187, 136, 68); }
+
+table.code td .ss { color: rgb(187, 136, 68); }
+
+table.code td .bp { color: rgb(153, 153, 153); }
+
+table.code td .vc { color: rgb(0, 128, 128); }
+
+table.code td .vg { color: rgb(0, 128, 128); }
+
+table.code td .vi { color: rgb(0, 128, 128); }
+
+table.code td .il { color: rgb(0, 153, 153); }
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://opus.nlpl.eu/img/opus_medium.jpg
+
+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
+h9dPX2SF1VHJHURfa5A9pBJHQefhH0rMIi0MlotabRHHKBERUBERAREQEREBERAREQEREBERAREQ
+EREBERAREQEREBERBj71Z6C7wdyrYQ4j3Lxye3xFR/fMHuVGXSUJ9uw9OjeTx5OvyKUEW5ptdl0/
+hWfD3JieEDzRSQyGOWN8bx0tcNCF/CnOtoaKtZwVdLDOPy2A6eJYGswexTkmNk9Mf+XJy9Oq6+Pe
+cc+eJj1W6kVIpBn2dwk6w3SRvY+IH5iF53bO6jXvbnEfHEfrW1G56af1ekp6oaMi3pmzubXv7pGB
+2RE/SvZT7PKJp/8AUXCeT8xgb8+qi256aP1eknVCOV6aCgra+TudHSyzu/IbqB4z1KVKHEbDSEOF
+EJnDrmcXejo9CzcMUcMYjhjZGwdDWt0A8i08u81j8OvPxR1NCx7BKhs0dTdJxFwODhFGdTqPCejz
+aqQERcfUanJqLc3lWZ5ERFroEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQER
+EBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH/9k=
+
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://opus.nlpl.eu/trac/chrome/common/trac_logo_mini.png
+
+iVBORw0KGgoAAAANSUhEUgAAAGsAAAAeCAMAAAAcjhBMAAAAPFBMVEUAAQAQEg8bHRopKigxMzA+
+Pz2tJSRdX13GZGSHh4eXmZbUjIqrq6vcpKXkuLfRysfOzs7v5eT9//z////0ChKeAAAAE3RSTlP/
+//////////////////////8Asn3cCAAAAhRJREFUeNq1lY2SqyAMhcG/cEMlG3z/d72UEFlZpXam
+PdMKBuvXkwQ18VIrx8+qw1qWkyAj4FdYoQ3RaIyBL7DWhdsQmo+y2DWEL7LC4nZfiz+SYH6yRgAg
+SMLIOFvMC6MdZsDflw52AqS+r8RSVAMDs0sKx/mI1qhmFtKgAezXKwSfe8ItT3EK8BUrBwBN1dhc
+x32WX6QBl6w1TfwJa0oH+ffAxkyACGoks2XZvuiNjNhZ/jnRJZLeICKejShRYqkKZUAkAeEzQn2W
+Fzuaw5Am7qQPhQUc6/8QP+J+0IUbLKeTXMAr1ljCBLZmN2cWb/Z88cOV6S5YWOtYWdoTL1krl9w5
+afog7NBhKcqONsdusxKDBfYEu1BS6TssyiDkEiNxd4PllnJ7VyMtazqyYJ9N+84z8516hbgGbYfK
+WsuJFkNZB2pxBE2H9vvQF+zqubD0hyyVmUZqfA1IOAiLrVwEAOOL54baUEjYUyhpEv1ioTkIDwHq
+sVh3cGIIjNdQl6lhSRJFVmNoK7nPqttKpkJSaab+7q+JSGMMhTZ0WVFZblH5eBAhUlN4prMQEr16
+bugTt0qXtp/Hv/f0+Nm2ltXCOPozVkJt25bvIsOm302PzcmjwxJayEBVOLDypw5bGYXcnHRZKq2W
+837l2PpqWCe+3mKVl5hKWUK49CXje77kRcLxkpVGvWNj5Z16qbghfbYPv6//7VGmg2b/jj8AAAAA
+SUVORK5CYII=
+
+------MultipartBoundary--aLh0tbUUDPB0Lnrx8StXuGK2yQwOn1Ca8p8BrxPKy8------
