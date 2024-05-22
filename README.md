@@ -18,8 +18,6 @@ For example, if you want to make a translator from Vietnamese to English as I ha
     [line 2] And it's truly a great honor to have the opportunity to come to this stage twice; I'm extremely grateful.  
     [line 3] I have been blown away by this conference, and I want to thank all of you for the many nice comments about what I had to say the other night.  
 
-Now you can train your model using `train.py`.
-
 ----
 **Copyright note:** Please follow the requirements of OPUS or any other place you took data from. 
 
