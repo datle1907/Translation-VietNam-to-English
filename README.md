@@ -9,8 +9,6 @@ The model was trained with the [**OPUS TED2020-v1 en-vi text**](https://opus.nlp
 
 The current model (in `translator.py`) is a simple encoder-decoder with 4-GRU-layer encoder and decoder. Due to the lack of resources, *attention mechanism* (with *bidirectional RNNs*) have not been used.  
 
-In the future, *beam search* and *random translation* may also be added to improve performance of the model.  
-
 ### DEMO 
 
 ![Screenshot 2024-05-22 205817](https://github.com/datle1907/Translation-VietNam-to-English/assets/149254854/ecca9af0-857a-4498-b4a5-41b3922f457c)
